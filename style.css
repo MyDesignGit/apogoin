@@ -1,0 +1,322 @@
+/**
+ * Change animation duration
+ */
+
+ html {
+  scroll-behavior: smooth;
+}
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+.firstslider {
+  
+    right: 60%;
+   
+}
+
+img {
+  image-rendering: auto;
+  /*image-rendering: crisp-edges;
+  image-rendering: pixelated;*/
+}
+
+.caption-para{
+  margin-top: 10px;
+  line-height: auto;
+  text-transform: uppercase;
+  text-align: left;
+}
+.navbar{
+  background-color: rgba(0,0,0,0.2);
+}
+
+.aboutbg{
+  background: url("img/About Us -01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+
+}
+.aboutbg2{
+  background: url("img/aboutbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+
+.bigCapHeading{
+  text-transform: uppercase;
+  font-size: 50px;
+      margin-left: -321px;
+      line-height: 0.9;
+  
+}
+
+.paddingzero{
+  padding: 0;
+}
+
+.abouttextstyle{
+  padding: 200px 0;
+  color: #fff;
+    text-align: center;
+}
+
+.yellowcolor{
+  color:#fff112;
+}
+.font30{
+  font-size: 30px;
+}
+.mb-zero{
+  margin-bottom: 0px;
+}
+
+.pd-zero{
+  padding: 0px;
+}
+
+.mt-20{
+  margin-top:20px;
+}
+.headerMargin{
+  margin-top: 90px;
+}
+
+.fontwhite{
+  color: #fff;
+}
+.mb-20{
+ margin-bottom:20px;
+}
+
+.padding150{
+  padding: 150px 0;
+
+}
+
+.servicelink {
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+   
+}
+.servicelink p{
+  text-align: center;
+  color: #7f7f7f;
+  text-decoration: none;
+  
+
+}
+
+.servicelink img{
+  transition: transform .2s;
+}
+
+.servicelink img:hover{
+  transform: scale(0.8);
+  z-index: 1;
+}
+
+.brandcreation{
+  background-image: url("img/brandcreationbg.jpg");
+  background-size: cover;
+  padding: 260px 0;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.apparelcreation{
+  background-image: url("img/brandcreationbg.jpg");
+  background-size: cover;
+  padding: 260px 0;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.fashioncreation{
+  background-image: url("img/5 FASHION BUSINESS CONSULTING 2.png");
+  background-size: cover;
+  padding: 280px 0;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+.apparelcreation .herolist{
+  width: 900px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.herolist{
+  margin-top: 50px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.herolist li{
+
+  display: inline-block;
+  border-right: 1px solid #ccc;
+  padding: 0 20px;
+  
+}
+.herolist li:last-child{
+  border-right: none;
+
+}
+.herolist li:nth-child(3){
+  border-right: none;
+  margin-bottom: 30px;
+
+}
+.text-border{
+  border:1px solid #fff;
+  padding: 5px;
+}
+
+.downbtn{
+  position: absolute;
+  bottom: 100px;
+  text-align: center;
+  margin-left: 50%;
+
+}
+
+.bordernone{
+  border:none;
+}
+
+.card-box{
+  width: 620px;
+  margin: 0 auto;
+  border: none;
+  padding: 100px 0;
+}
+
+.infocolor{
+  color: #31163f;
+}
+
+.listing{
+  padding: 0;
+  margin: 0;
+}
+
+.listing li{
+ list-style-type: none;
+  position: relative;
+  padding-left: 15px;
+}
+
+.listing li:before {
+ content: "";
+    border-color: transparent #f1585a;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 1em;
+    position: relative; 
+
+}
+
+.listing-sea li{
+
+  background:linear-gradient(150deg, #0a1d46, #254485,#285ac0,#285ac0, #254485,#0a1d46);
+  list-style-type: none;
+  color:#fff;
+  margin: 20px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+}
+
+.carousel-inner-slider{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   height: 500px;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  60% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  10% {
+    transform: translateX(100%);
+  }
+  80% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFrombottom {
+  20% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.bigCapHeading  {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  
+ /* background: #333;
+  padding: 30px;*/
+}
+
+.rightanimation{
+   animation: 1s ease-out 0s 1 slideInFromRight;
+}
+
+.bottomanimation{
+   animation: 1s ease-out 0s 1 slideInFrombottom;
+}
